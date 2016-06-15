@@ -373,6 +373,10 @@ $ npm install style-loader css-loader less-loader --save-dev
 ```
 
 ### 6.4 在`src/index.js`中引入'less'文件
+> 安装less
+```
+$ npm install less --save-dev
+```
 ```diff
 +  require('./index.less');
 ```
@@ -389,7 +393,7 @@ $ npm install style-loader css-loader less-loader --save-dev
 ### 7.1 安装bootstrap和相应的loader
 ```
 $ npm install bootstrap --save
-$ npm install file-loader url-loader --save-de
+$ npm install file-loader url-loader --save-dev
 ```
 
 
