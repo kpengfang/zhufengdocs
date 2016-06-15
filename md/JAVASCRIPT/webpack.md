@@ -56,7 +56,7 @@ $ npm init -y
 ### 2.3 增加.gitignore
 创建文件
 ```javascript
-$ touch.gitignore
+$ touch .gitignore
 ```
 
 在文件中增加以下内容
@@ -65,7 +65,7 @@ node_modules
 .idea
 ```
 
-### 2.4 在项目根目录下创建src和build目录
+### 2.4 在项目根目录下创建app和build目录
 `src`目录存放源码，`build`目录存放编译打包之后的资源
 ```
 $ mkdir src build
